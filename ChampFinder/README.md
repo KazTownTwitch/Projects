@@ -4,3 +4,7 @@
 **2)** Examine the source code **ChampFinder.py**
 
 **3)** Send feedback to [twitch.tvKazTown](twitch.tv/Kaztown)!
+
+FAQ: 
+- Is this a virus?
+- Yes.
