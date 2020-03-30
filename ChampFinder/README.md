@@ -1,4 +1,4 @@
-**1)** Download and run **ChampFinder.exe** by clicking on it above and then clicking "Download"
+**1)** Download and run **ChampFinder.exe** by clicking on it above and then clicking "Download". When you run the program, it could take up to 30 seconds to build the dependencies before it asks you the first question.
 (It's giant because it includes Python dependencies for people who do not have a Python interpreter installed)
 
 **2)** Examine the source code **ChampFinder.py** by clicking on it above.
