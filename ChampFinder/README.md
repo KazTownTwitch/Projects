@@ -6,5 +6,5 @@
 **3)** Send feedback to [twitch.tvKazTown](twitch.tv/Kaztown)!
 
 FAQ: 
-- Is this a virus?
-- Yes.
+- **Q:** Is this a virus?
+- **A:** Yes.
