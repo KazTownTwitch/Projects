@@ -3,7 +3,7 @@
 
 **2)** Examine the source code **ChampFinder.py** by clicking on it above.
 
-**3)** Send feedback to [twitch.tvKazTown](twitch.tv/Kaztown)!
+**3)** Send feedback to [twitch.tvKazTown](https://twitch.tv/Kaztown)!
 
 FAQ: 
 - **Q:** Is this a virus?
