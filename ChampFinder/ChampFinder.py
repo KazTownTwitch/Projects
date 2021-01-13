@@ -25,7 +25,7 @@ while True:
             if yes("You like kickin' shit?"):
               champ = "Lee Sin"
             else:
-              if yes("You like constantly watching your allies in fights?"):
+              if yes("Do you spend 95% of the game watching your allies' screens instead of your own?"):
                 champ = "Shen"
               else:
                 if yes("You like getting bonus range, damage, and AOE on your basic attacks, and becoming an unkillable late-game god?"):
@@ -53,7 +53,7 @@ while True:
                           if yes("Do you like turning people into squirrels?"):
                             champ = "Lulu"
                           else:
-                              if yes("Do you enjoy moving independently?"):
+                              if yes("Do you want to watch and movie and build a desk while playing?"):
                                 champ = "Yuumi"
                               else:
                                 if yes("Do you like targetting your abilities?"):
@@ -70,7 +70,7 @@ while True:
       else:
         if yes("Do you need to be ranged vs melee to win your lane?"):
           if yes("Do you want to suck even after winning lane?"):
-            if yes("Do you want to have six abilities that suck?"):
+            if yes("While you suck, do you you want to have six abilities?"):
               champ = "Jayce"
             else:
               champ = "Kennen"
@@ -92,23 +92,23 @@ while True:
             else:
               champ = "Blitzcrank"
           else:
-            if yes("Do you think 'ammo' is a fun game mechanic?"):
-              if yes("Do you think gaining armor temporarily is a fun ability?"):
+            if yes("Do you think 'ammo' is a fun and exiting game mechanic?"):
+              if yes("Do you think gaining temporary armor is a fun and exicting ability?"):
                 champ = "Graves"
               else:
                 champ = "Jhin"
             else:
               if yes("Do you need to be invisible to get a kill?"):
-                if yes("Do you also need to have copies of yourself to get a kill?"):
+                if yes("Do you also need to have 2 copies of yourself to get a kill?"):
                   champ = "Shaco"
                 else:
                   if yes("Are mushrooms your favorite pizza topping?"):
                     champ = "Teemo"
                   else: 
-                    if yes("Is bursting one person down more fun than shredding everyone?"):
-                      champ = "Evelynn"
-                    else:
+                    if yes("But when you are visible, you want to be sexy, right?"):
                       champ = "Twitch"
+                    else:
+                      champ = "Evelynn"
               else:
                 if yes("Do you need to be underground to get a kill?"):
                   champ = "Rek'sai"
@@ -116,18 +116,18 @@ while True:
                   champ = "Trundle"
                 else:     
                   if yes("Is 'sustained ranged DPS' a panty-dropper for you?"):
-                    if yes("We're talkin' sustained magic damage, right?"):
-                      if yes("And snakes in bras?"):
+                    if yes("Is it a double-panty-dropper if it's Magic Damage?"):
+                      if yes("Snakes in bras?"):
                         champ = "Cassiopoeia"
                       else:
                         champ = "Azir"
                     else:
-                      if yes("Are you so bad at skillshots that you need one that pierces through everything?"):
+                      if yes("Are you so bad at skillshots that you need one that goes through the minions?"):
                         if yes("And defensive abilities are for pussies, right?"):
-                          if yes("So something good happens if you accidentally die?"):
+                          if yes("But at least when you die, you have a back-up plan, right?"):
                             champ = "Kog'Maw"
                           else:
-                            if yes("You're gonna lose all your money when you die, aren't you?"):
+                            if yes("You're gonna lose all your stacks when you die, aren't you?"):
                               champ = "Draven"
                             else:
                               champ = "Varus"
@@ -149,11 +149,11 @@ while True:
                             else:
                               champ = "Ashe"
                         else:
-                          if yes("Okay, but you want some ultimate right?"):
-                            if yes("Like, a really weird one that nobody understands?"):
+                          if yes("Okay, but you want some kind of flashy ultimate right?"):
+                            if yes("Like, a really weird one that nobody understands even 4 years later?"):
                               champ = "Kalista"
                             else:
-                              if yes("Wait, do you think you can have amazing DPS from the jungle?"):
+                              if yes("Wait, were you trying tp have great ranged DPS from the jungle?!?!"):
                                 champ = "Kindred"
                               else:
                                 if yes("Do you like boobs?"):
@@ -162,7 +162,7 @@ while True:
                                   else:
                                     champ = "Kai'sa"
                                 else:
-                                  if yes("Do you want like, 5 different weapons and 2 spells or something?"):
+                                  if yes("Do you want like, 5 different weapons and 2 spells, and 4 hats, and 3 belts or something?"):
                                     champ = "Aphelios"
                                   else:
                                     if yes("Do you want to bounce around like a kangaroo on speed?"):
@@ -172,10 +172,10 @@ while True:
                           else:
                             champ = "Corki"
                   else:
-                    if yes("Do you have 'Point-and-click CC' tattooed on your ass?"):
+                    if yes("Do you have 'I <3 Point-and-click CC' tattooed on your ass?"):
                         if yes("Do you at least want some damage?"):
                           if yes("Do you like teleporting?"):
-                            if yes("Does the rest of your team like teleporting?"):
+                            if yes("Are you going to make the rest of your team like telepoting, too?"):
                               champ = "Ryze"
                             else:
                               champ = "Twisted Fate"
@@ -191,22 +191,22 @@ while True:
                                 else:
                                   champ = "Annie"
                         else:
-                          if yes("Do you like to drag shit?"):
+                          if yes("Have you ever wished you were a tractor?"):
                             champ = "Skarner"
                           else:
                             champ = "Jarvin IV"
                     else:
                       if yes("Do you want a midlane assassin but are tired of using skill?"):
-                        if yes("How about just a single skillshot?"):
+                        if yes("What about just ONE single skillshot?"):
                           champ = "Diana"
                         else:
                           champ = "Talon"
                       else:
                         if yes("Do you want to dance around fights like a fairy princess?"):
-                          if yes("And cancel animations like they are season 2 of Firefly?"):
+                          if yes("And cancel animations like they are season 2 of No Game; No Life?"):
                             champ = "Riven"
                           else:
-                            if yes("Does outplaying mean using at least 3 dashes or teleports?"):
+                            if yes("Does outplaying mean using at least 3 dashes or teleports per engage?"):
                               if yes("Do you want to be perma-banned?"):
                                 if yes("By both teams?"):
                                   champ = "Yasuo"
@@ -225,30 +225,30 @@ while True:
                                   if yes("May we add extreme scaling to your already high damage, high mobility champion?"):
                                     champ = "Kassadin"
                                   else:
-                                    if yes("Is picking up shit off the ground an enticing game mechanic?"):
+                                    if yes("Is picking shit up off the ground an exciting game mechanic?"):
                                       champ = "Katarina"
                                     else:
                                       champ = "Akali"
                             else:
-                              if yes("Does outplaying mean throwing your ultimate anywhere in the jungle and hitting everyone?"):
+                              if yes("Does outplaying mean throwing your ultimate anywhere in the jungle and still hitting everyone?"):
                                 champ = "Qiyana"
                               else:
-                                if yes("Does outplaying mean reversing time whenever you get low on health?"):
+                                if yes("Does outplaying mean pressing R because you fucked up?"):
                                   champ = "Ekko"
                                 else:
-                                  if yes("Does outplaying mean healing up to full as you pentakill the entire enemy team?"):
+                                  if yes("Does outplaying mean looking like a sexy vampire while you get your pentakill?"):
                                     champ = "Vladimir"    
                                   else:
                                     champ = "Fizz" 
                         else:     
-                          if yes("Does getting top damage from the mid lane make you hard?"):
-                            if yes("And do you want to do it with that weird champion that nobody has ever heard of?"):
+                          if yes("Are you a midlaner who types 'Look at my damage!' in the post game lobby even though you died 12 times?"):
+                            if yes("Are you that guy who always has to play the most obscure character?"):
                               champ = "Aurelion Sol"
                             else:
-                              if yes("Are you getting top damage because your opponent's ultimate scales better on you?"):
+                              if yes("Are you getting top damage because your opponent's ultimate looks better on you?"):
                                 champ = "Sylas"
                               else:
-                                if yes("Can you deal with an ability that doesn't do damage?"):
+                                if yes("Can you cope with the fact that some of your abilities may not do damage?"):
                                   if yes("Do you wanna be a spooky guy with a broken, no-skill ultimate?"):
                                     if yes("A short spooky guy?"):
                                       champ = "Veigar"
@@ -258,14 +258,14 @@ while True:
                                       else:
                                         champ = "Karthus"
                                   if yes("Do you want an ultimate that takes you somewhere else?"):
-                                    if yes("But like, where it takes you is right next to you?"):
+                                    if yes("But like, where it takes you is right next to you, and it doesn't even really take you there?"):
                                       champ = "Zoe"
                                     else:
                                       champ = "Taliyah"
                                   else:
                                     if yes("Is Articuno your favorite Pokemon?"):
                                       champ = "Anivia"
-                                    elif yes("Do you hate choosing which items to buy?"):
+                                    elif yes("Do you hate wondering which items to buy?"):
                                         champ = "Viktor"
                                     else:
                                       if yes("Do you like playing dress-up?"):
@@ -273,13 +273,13 @@ while True:
                                       else:
                                         champ = "Zyra"
                                 else:
-                                  if yes("Would Riot make a champion that has FOUR damaging abilities AND is tanky?"):
+                                  if yes("Would Riot really make a champion that has FOUR damaging abilities AND is tanky?"):
                                     champ = "Swain"
-                                  elif yes("Do you like point-and-click abilities?"):
-                                    if yes("But your opponents can dodge some of your abilities, right?"):
-                                      champ = "Brand"
-                                    else:
+                                  elif yes("So inifnity damage and 75% of it on a point-and-click?"):
+                                    if yes("Are you at least wearing a shirt?"):
                                       champ = "Syndra"
+                                    else:
+                                      champ = "Brand"
                                   else:
                                     if yes("Do you have strong feelings about turrets, either love or hate?"):
                                       if yes("Do you love turrets?"):
