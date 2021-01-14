@@ -9,7 +9,7 @@ while True:
   
   #Family 1: Single player
   if yes("Is League of Legends a single player game?"):       
-    elif yes("And pressing 'R' is a cheat code that makes it so you can't die?"):
+    if yes("And pressing 'R' is a cheat code that makes it so you can't die?"):
       champ = "Tryndamere"
     else:
       champ = "Yorick"
@@ -101,8 +101,10 @@ while True:
   elif yes("Do you need to be invisible to get a kill?"):
     if yes("Do you also need to have 2 copies of yourself to get a kill?"):
       champ = "Shaco"
-    elif yes("Are mushrooms your favorite pizza topping?"):
+    elif yes("Do you see an opportunity in every mushroom?"):
       champ = "Teemo"
+    elif ("Is Scyther your favorite Pokemon?"):
+      champ = "Kha'Zix"
     elif yes("For the few moments when you are visible, you want to be sexy, right?"):
       champ = "Twitch"
     else:
@@ -113,7 +115,7 @@ while True:
     if yes("Is it a double-panty-dropper if it's Magic Damage?"):
       if yes("Do you want a wrist injury after one game?"):
         champ = "Cassiopoeia"
-      elif ("Are you scared of planes?):
+      elif ("Are you scared of planes?"):
         champ = "Azir"
       else:
         champ = "Corki"
@@ -158,7 +160,7 @@ while True:
       champ = "Lucian"
 
   #Family 8: Samira
-  elif yes("That was the ADC section, but Samira is the only dedicated bot-laner that doesn't have sustained long range DPS, so are you Samira?"):
+  elif yes("Are you the only dedicated bot laner that does not offer sustained ranged DPS?"):
     champ = "Samira"
             
   #Family 9: Point-and-click CC
@@ -191,7 +193,7 @@ while True:
 
   #Family 11: Mobile Mid-laners
   elif yes("Are you a midlaner who spams dashes, dodges, and blinks, wastes half their damage, then types 'outplayed' in all chat?"):
-    if yes("Does outplaying mean pressing W whenever you are out of position?")
+    if yes("Does outplaying mean pressing W whenever you are out of position?"):
       champ = "Akali"
     elif yes("Does outplaying mean throwing your ultimate anywhere in the jungle and still hitting everyone?"):
       champ = "Qiyana"
@@ -214,7 +216,7 @@ while True:
       else:
         champ = "LeBlanc"     
     elif yes("Do you want your champion to be useful before 30 minutes?"):
-      elif yes("Is picking shit up off the ground an exciting game mechanic?"):
+      if yes("Is picking shit up off the ground an exciting game mechanic?"):
         champ = "Katarina"
       else:
         champ = "Zed"
@@ -283,9 +285,9 @@ while True:
         champ = "Camille"
       else:
         champ = "Mordekaiser"
-     elif yes("Does winning require spinning?"):
+    elif yes("Does winning require spinning?"):
       if yes("One day humans will go extinct. Animals, creatures of raw beauty and brawn, will then rise and once again dominate the Earth?"):
-        if yes("Did you just pick the character that looks the coolest? What are you, 9 years old?):
+        if yes("Did you just pick the character that looks the coolest? What are you, 9 years old?"):
           champ = "Renekton"
         else:
           champ = "Wukong"
@@ -325,7 +327,7 @@ while True:
               champ = "Amumu"
           else:
             champ = "Zac"
-        elif: yes("Do you have any non-ultimate abilities?"):
+        elif yes("Do you have any non-ultimate abilities?"):
           champ = "Galio"
         else:
           champ = "Malphite"  
@@ -364,20 +366,17 @@ while True:
             champ = "Vi"
         else:
           champ = "Master Yi"
-      elif("Can you step into walls like Danny Phantom?")
+      elif("Can you step into walls like Danny Phantom?"):
         champ = "Kayn"
       else:
         champ = "Hecarim"            
-
-    elif yes("Does your champion evolve like a Pokemon?"):
-      champ = "Kha'Zix"
-    elif yes("Is your Pokemon Ghost type?):
+    elif yes("You must a Pokemon champion! Do you want a Ghost type, like Gengar?"):
        champ = "Nocturne"
-    elif yes("Does your Pokemon rhyme with 'Gengar'?"):      
+    elif yes("Do you want a Pokemon that rhymes with 'Gengar'?"):      
       champ = "Rengar"
-    elif yes("Does your Pokemon know TM28 - Dig?"):
+    elif yes("Do you want a Pokemon that knows TM28 - Dig?"):
         champ = "Rek'sai"          
-    elif yes("I'm starting to think you're not a Pokemon. Are you more like a hot centaur anime chick in a movie about preserving the environment?"):
+    elif yes("I'm starting to think you don't want a Pokemon. Do you at least want the bottom half of a Pokemon?"):
       champ = "Lillia"        
     else:
       champ = "Olaf"
