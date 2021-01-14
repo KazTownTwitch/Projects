@@ -313,44 +313,20 @@ while True:
     else:
       champ = "Aatrox"
 
-  #Family 15: Chaser Downers
-  elif yes("Are you a master chaser downer?"):
-    if yes("And you like throwing shit at people?"):
-      if yes("Do you hide in tall grass like a fuckin' rattata?"):
-        champ = "Rengar"
-      else:
-        champ = "Olaf"
-    elif yes("Are you a scythe-y boy?"):
-      if yes("A horse-y scythe-y boy?"):
-        champ = "Hecarim"
-      else:
-        champ = "Kayn"
-    elif yes("You're a good boy! Yes you are! Yes you are?"):
-      champ = "Warwick"
-    elif yes("Dang, I was sure that one would get you, are you sure you're not a furry?")
-      if yes("Are you one of those emo kids who stays up all night and sleeps during the day when the normies are awake?"):
-        champ = "Nocturne"
-      elif yes("Are you one of those kids who tries on his mother's dresses when she's at her AA meetings"):
-        champ = "Master Yi"
-      elif yes("Is Bowser your dad?"):
-        champ = "Rammus"
-      else:
-        champ = "Vi"
-    else:
-      champ = "Udyr"
-
-  #Family 16: Meatballs
+  #Family 15: Meatballs
   elif yes("Does the term 'scarifical meatball' mean anything to you?"):
     if yes("Do you want a big AoE ultimate?"):
       if yes("With you in the center?"):
         if yes("Are you green?"):
-          if yes("And round?"):
-            if yes("And wrapped in toilet paper?"):
-              champ = "Amumu"
+          if yes("And short?"):
+            if yes("And Bowser's son?"):
+              champ = "Rammus"
             else:
-              champ = "Zac"
+              champ = "Amumu"
           else:
-            champ = "Galio"
+            champ = "Zac"
+        elif: yes("Do you have any non-ultimate abilities?"):
+          champ = "Galio"
         else:
           champ = "Malphite"  
       elif yes("Do you want a hammer for a weapon?"):
@@ -373,28 +349,55 @@ while True:
       champ = "Dr. Mundo"
     else:
       champ = "Alistar"
+  
+  #Family 16: Chaser Downers
+  elif yes("Are you a master chaser downer?"):
+    if yes("Projectiles are for pussies?"):
+      if yes("Scythes are for pussies?"):
+        if yes("Swords are for pussies?"):
+          if yes("Gauntlets are for pussies?"):
+            if yes("Abiltiies are for pussies?"):
+               champ = "Udyr"
+            else:
+               champ = "Warwick"
+          else:
+            champ = "Vi"
+        else:
+          champ = "Master Yi"
+      elif("Can you step into walls like Danny Phantom?")
+        champ = "Kayn"
+      else:
+        champ = "Hecarim"            
+
+    elif yes("Does your champion evolve like a Pokemon?"):
+      champ = "Kha'Zix"
+    elif yes("Is your Pokemon Ghost type?):
+       champ = "Nocturne"
+    elif yes("Does your Pokemon rhyme with 'Gengar'?"):      
+      champ = "Rengar"
+    elif yes("Does your Pokemon know TM28 - Dig?"):
+        champ = "Rek'sai"          
+    elif yes("I'm starting to think you're not a Pokemon. Are you more like a hot centaur anime chick in a movie about preserving the environment?"):
+      champ = "Lillia"        
+    else:
+      champ = "Olaf"
 
   #Family 17: Leftovers
   elif yes("So, you made it all the way here, to the generic champs that aren't very interesting. Errr, I mean...the very special unique champs. Hey, magnets are cool, right?"):
     champ = "Rell"                     
   elif yes("Did you complete the 'Pacifist' route in Undertale?"):
     champ = "Ivern"             
-  elif yes("You're getting near the end, this is your last chance to get a champion with an apostrophe in its name. You want one of those?"):
-    elif yes("We've got a hot chick and a hot dude. Do you want the hot chick?"):
-      champ = "Rek'Sai"
-    else:
-      champ = "Kha'Zix'
   elif yes("Do you want a dragon Animorph?"):
     champ = "Shyvana"
   elif yes("Do you want a spider Animorph?"):
     champ = "Elise"
   elif yes("Do you want a cougar Animorph?"):
     champ = "Nidalee"
-  elif yes():
-    champ = "Lillia" #Move to chaser downer
-  elif:
+  elif yes("Seriously, isn't there anything interesting about your champion? Do you at least have an exciting ultimate?"):
     champ = "Gragas"
+  elif yes("Or maybe an ability that alters the terrain or something?"): 
     champ = "Trundle"
+  else:
     champ = "Xin Zhao"
 
   print("\n\nYour dream LoL champion is... " + champ + "!")
