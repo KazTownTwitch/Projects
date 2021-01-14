@@ -9,7 +9,7 @@ while True:
   
   #Family 1: Single player
   if yes("Is League of Legends a single player game?"):       
-    elif yes("And there is a cheat code 'R' that makes it so you can't die?"):
+    elif yes("And pressing 'R' is a cheat code that makes it so you can't die?"):
       champ = "Tryndamere"
     else:
       champ = "Yorick"
@@ -143,11 +143,13 @@ while True:
       champ = "Kalista"
     elif yes("Wait, you aren't the physical manifestation of life and death, are you?"):
       champ = "Kindred"
+    elif yes("Wait, you aren't the physical manifestation of me throwing my computer out the window, are you?"):  
+      champ = "Vayne"
     elif yes("Do you like boobs?"):
-      if yes("Do you REALLY like boobs?"):
+      if yes("Do you like boobs that are even bigger than Kai'Sa's boobs?"):
         champ = "Miss Fortune"
       else:
-        champ = "Kai'sa"
+        champ = "Kai'Sa"
     elif yes("Do you want like, 5 different weapons, and 7 hats, and 9 belts or something?"):
       champ = "Aphelios"
     elif yes("Do you want to bounce around like a kangaroo on speed?"):
@@ -155,7 +157,11 @@ while True:
     else:
       champ = "Lucian"
 
-  #Family 8: Point-and-click CC
+  #Family 8: Samira
+  elif yes("That was the ADC section, but Samira is the only dedicated bot-laner that doesn't have sustained long range DPS, so are you Samira?"):
+    champ = "Samira"
+            
+  #Family 9: Point-and-click CC
   elif yes("Do you have 'I <3 Point-and-Click CC' tattooed on your ass?"):
     if yes("Do you at least want some damage?"):
       if yes("Do you like teleporting?"):
@@ -176,14 +182,14 @@ while True:
     else:
       champ = "Jarvin IV"
 
-  #Family 9: No skill Assassins
+  #Family 10: No skill Assassins
   elif yes("Do you want a midlane assassin but are tired of using skill?"):
     if yes("What about just ONE single skillshot?"):
       champ = "Diana"
     else:
       champ = "Talon"
 
-  #Family 10: Mobile Mid-laners
+  #Family 11: Mobile Mid-laners
   elif yes("Are you a midlaner who spams dashes, dodges, and blinks, wastes half their damage, then types 'outplayed' in all chat?"):
     if yes("Does outplaying mean pressing W whenever you are out of position?")
       champ = "Akali"
@@ -215,7 +221,7 @@ while True:
     else:
       champ = "Kassadin"
 
-  #Family 11: Immobile Midlaners
+  #Family 12: Immobile Midlaners
   elif yes("Are you a midlaner who types 'Look at my damage!' in post-game lobby even though you died 12 times?"):
     if yes("Are you 'that guy' who always has to play the most obscure character?"):
       champ = "Aurelion Sol"
@@ -253,72 +259,87 @@ while True:
       else:
         champ = "Ziggs"
     elif yes("Are you aiming for enemies that are even on your screen?"):
-      champ = "Vel'koz"
+      champ = "Vel'Koz"
     else:
       champ = "Xerath"
+            
+  #Family 13: Rides on some Monsters Inc critter shit
+  elif yes("Do you riding on some Monsters Inc critter shit?"):
+    if yes("You rather ride on Sully from Monsters Inc than Randall from Monsters Inc?"):
+      champ = "Nunu"
+    else:
+      champ = "Kled"
 
-  #Family 12: Top-laners
-  elif yes("Do you want to snowball two kills in the toplane into being an unstoppable pentakill machine?"):
+  #Family 14: Top lane Carries
+  elif yes("Do you want to snowball two kills in the top lane into being an unstoppable pentakill machine?"):
     if yes("And by pentakill machine, do you mean, tenta-kill machine?"):
       champ = "Illaoi"
+    elif yes("Do you want to snowball your pentakill into a game loss for your team?"):
+      champ = "Fiora"
+    elif yes("Do you plan to get the pentakill by running away in the shape of a dick and balls?"):
+      champ = "Singed"
     elif yes("Will any of your kills take place in a death arena of some sort?"):
       if yes("A hexagonal one?"):
         champ = "Camille"
       else:
         champ = "Mordekaiser"
+     elif yes("Does winning require spinning?"):
+      if yes("One day humans will go extinct. Animals, creatures of raw beauty and brawn, will then rise and once again dominate the Earth?"):
+        if yes("Did you just pick the character that looks the coolest? What are you, 9 years old?):
+          champ = "Renekton"
+        else:
+          champ = "Wukong"
+      elif yes("If Riot made a champion that was a copy of Garen, would you prefer it to Garen?"):
+        champ = "Darius"
+      else:
+        champ = "Garen"
     elif yes("Do you like to stun people?"):
       if yes("By being really, really, ridculously good looking?"):
         champ = "Sett"
       elif yes("Do you cancel animations like they're season 2 of No Game; No Life?"):
         champ = "Riven"
-      elif yes("Did you just pick the character that looks the coolest? What are you, 9 years old?):
-        champ = "Renekton"
       else:
         champ = "Volibear"
-    elif yes("Does winning require spinning?"):
-      if yes("If Riot made a champion that was a copy of Garen, would you prefer it to Garen?"):
-        champ = "Darius"
-      else:
-        champ = "Garen"
     elif yes("Pharaoh doge wants a Scooby-stack?"):
       champ = "Nasus"
-    elif yes("Can an orange bring you home from the Death Realm?"):
-      champ = "Gangplank"
+    elif yes("Do you love lamp?"):
+      champ = "Jax"
+    elif yes("Do you have a kink for legs?"):
+      champ = "Urgot"
     elif yes("Is your champion just the hamster version of Doctor Eggman from Sonic?"):
       champ = "Rumble"
+    elif yes("Can an orange bring you home from the Death Realm?"):
+      champ = "Gangplank"
     else:
       champ = "Aatrox"
-  elif yes("Do you want to snowball two kills in the toplane into a game loss for your team?"):
-    champ = "Fiora"
 
-  #Family 13: Chaser Downers
+  #Family 15: Chaser Downers
   elif yes("Are you a master chaser downer?"):
     if yes("And you like throwing shit at people?"):
-      if yes("Do you riding on some Monsters Inc critter shit?"):
-        if yes("You rather ride on Sully from Monsters Inc than Randall from Monsters Inc?"):
-          champ = "Nunu"
-        else:
-          champ = "Kled"
-      elif yes("Do you live for the bush?"):
+      if yes("Do you hide in tall grass like a fuckin' rattata?"):
         champ = "Rengar"
       else:
         champ = "Olaf"
     elif yes("Are you a scythe-y boy?"):
-      if yes("And horse-y boy?"):
+      if yes("A horse-y scythe-y boy?"):
         champ = "Hecarim"
       else:
         champ = "Kayn"
     elif yes("You're a good boy! Yes you are! Yes you are?"):
       champ = "Warwick"
-    elif yes("While running people down, do you intend to attack them at any point?"):
-      if yes("And shake them like a polaroid picture?"):
+    elif yes("Dang, I was sure that one would get you, are you sure you're not a furry?")
+      if yes("Are you one of those emo kids who stays up all night and sleeps during the day when the normies are awake?"):
+        champ = "Nocturne"
+      elif yes("Are you one of those kids who tries on his mother's dresses when she's at her AA meetings"):
+        champ = "Master Yi"
+      elif yes("Is Bowser your dad?"):
         champ = "Rammus"
       else:
-        champ = "Nocturne"
+        champ = "Vi"
     else:
-      champ = "Singed"
+      champ = "Udyr"
 
-  #Family 14: Meatballs
+  #Family 16: Meatballs
   elif yes("Does the term 'scarifical meatball' mean anything to you?"):
     if yes("Do you want a big AoE ultimate?"):
       if yes("With you in the center?"):
@@ -339,15 +360,13 @@ while True:
           champ = "Poppy"
       elif yes("Do you want a sword for a weapon?"):
         champ = "Leona"
-      elif yes("Do you want bark for a weapon?"):
+      elif yes("Do you want soft, supple, tree bark for a weapon?"):
         champ = "Maokai"
       else:
         champ = "Sion"
     elif yes("Do you want a big single target ultimate?"):
-      if yes("Do you want to emasculate your jungler by eating every large objective?"):
-        champ = "Cho'gath"
-      elif yes("Do you have a kink for legs?"):
-        champ = "Urgot"
+      if yes("Do you like to emasculate your jungler by eating every large objective?"):
+        champ = "Cho'Gath"
       else:
         champ = "Sejuani"
     elif yes("Do you want Dr. Mundo's ultimate?"):
@@ -355,40 +374,28 @@ while True:
     else:
       champ = "Alistar"
 
-  #Family 15: Miscellaneous
-
-  champ = "Rek'sai"
-  champ = "Trundle"              
-  champ = "Samira"
-  champ = "Xin Zhao" 
-  elif yes("Do you wanna go fast?"):
-    if yes("Because you're a goddamn man-bear-pig?"):
-      champ = "Udyr"
-    elif yes("Because men can wear dresses, too?"):
-      champ = "Master Yi"
-    else:
-      champ = "Vayne"          
-  elif yes("Do you love lamp?"):
-    champ = "Jax"
-
-  elif yes("How crazy are magnets, like 'whaaaaa...', they are like magic?"):
-    champ = "Rell"
+  #Family 17: Leftovers
+  elif yes("So, you made it all the way here, to the generic champs that aren't very interesting. Errr, I mean...the very special unique champs. Hey, magnets are cool, right?"):
+    champ = "Rell"                     
   elif yes("Did you complete the 'Pacifist' route in Undertale?"):
-    champ = "Ivern"
-  elif yes("Your Pokemon is evolving?"):
-    champ = "Kha'zix"
+    champ = "Ivern"             
+  elif yes("You're getting near the end, this is your last chance to get a champion with an apostrophe in its name. You want one of those?"):
+    elif yes("We've got a hot chick and a hot dude. Do you want the hot chick?"):
+      champ = "Rek'Sai"
+    else:
+      champ = "Kha'Zix'
   elif yes("Do you want a dragon Animorph?"):
     champ = "Shyvana"
   elif yes("Do you want a spider Animorph?"):
     champ = "Elise"
   elif yes("Do you want a cougar Animorph?"):
     champ = "Nidalee"
-  elif yes("Do you want to be a monkey, just a monkey, not a monkey Animorph?"):
-    champ = "Wukong"
-  elif yes("But you must want animal features of some kind! Junglers must have some animal feature?"):
-    champ = "Lillia"
-  else:
+  elif yes():
+    champ = "Lillia" #Move to chaser downer
+  elif:
     champ = "Gragas"
+    champ = "Trundle"
+    champ = "Xin Zhao"
 
   print("\n\nYour dream LoL champion is... " + champ + "!")
   print("Type 's' to start over, 'q' to quit")
